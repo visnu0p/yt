@@ -1,0 +1,52 @@
+Arguments: 
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js add axios
+
+PATH: 
+  /data/data/com.termux/files/usr/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.5.0
+
+Platform: 
+  android arm64
+
+Trace: 
+  Error: EPERM: operation not permitted, symlink '../../../sshpk/bin/sshpk-conv' -> '/storage/emulated/0/Download/billa/coinbase-billa/node_modules/http-signature/node_modules/.bin/sshpk-conv'
+
+npm manifest: 
+  {
+    "name": "coinbasebot",
+    "version": "1.0.0",
+    "description": "coinbasebot",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Khuzha/chatAdmin.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Khuzha/chatAdmin/issues"
+    },
+    "homepage": "https://github.com/Khuzha/chatAdmin#readme",
+    "dependencies": {
+    "body-parser": "1.19.0",
+      "mongodb": "^3.5.2",
+      "express": "4.17.1",
+      "telegraf": "^4.3.0",
+      "coinbase": "2.0.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
